@@ -1,3 +1,133 @@
-body{
-    display: inline;
+$grey-color:#60606e;
+$light-color:#fff;
+$green_color:#7beec7;
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  &__logo{
+    background-image: url(../img/akad.svg);
+    display: block;
+    width: 79px;
+    height: 19px;
+  }
 }
+.wrap{
+  max-width: 1525px;
+  margin: 0 auto ;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-main{
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.block-creative{
+  position: relative;
+    text-align: center;
+    &__creative{
+      position: absolute;
+      top: 28%;
+      left: 32%;
+    }
+    &__block{
+      margin-top: 34px;
+    }
+    &__were{
+      font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #60606e;
+    font-size: 18px;
+    position: absolute;
+    left: 48%;
+    top: 8.5%;
+    }
+    h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700 ;
+      color: $grey-color;
+      font-size: 48px;
+      letter-spacing: -0.8px;
+      margin-top: 18px;
+    }
+    &__text{
+      font-family: 'Open Sans', sans-serif;
+      color: $grey-color;
+      font-size: 16px;
+      max-width: 587px;
+      margin-left: 472px;
+    }
+}
+
+
+
+.block-history{
+  display: flex;
+  justify-content: space-between;
+  &__img{
+    margin-top: 147px;
+  }
+  &-text{
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700 ;
+      color: $grey-color;
+      font-size: 30px;
+      margin-top: 145px;
+    line-height: 25px;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+      color: $grey-color;
+      font-size: 16px;
+      max-width: 587px;
+    }
+    &__btn{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700 ;
+      font-size: 14px;
+      background-color: $green_color;
+      color: $light-color;
+      width: 220px;
+      height: 66px;
+      margin-bottom: 257px;
+      margin-top: 31px;
+      border: 0px;
+      float: right;
+     }
+  }
+
+}
+
+
+.block-why-center{
+  position: relative;
+  text-align: center;
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 ;
+    font-size: 30px;
+    color: $grey-color;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: $grey-color;
+    max-width: 750px;
+    margin-left: 387px;
+  }
+}
+.block-why-company-option{
+  display: flex;
+  justify-content: flex-start;
+}
+.block-why-company-groop{
+  display: flex;
+  justify-content: space-between;
+}
+
+
