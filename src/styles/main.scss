@@ -20,8 +20,9 @@ $green_color:#7beec7;
 }
 .page-main{
     background-image: url(../img/main.png);
+
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
 }
 
 
@@ -66,10 +67,11 @@ $green_color:#7beec7;
 
 
 .block-history{
+  position: relative;
   display: flex;
   justify-content: space-between;
   &__img{
-    margin-top: 147px;
+    
   }
   &-text{
     h3{
@@ -94,10 +96,10 @@ $green_color:#7beec7;
       color: $light-color;
       width: 220px;
       height: 66px;
-      margin-bottom: 257px;
-      margin-top: 31px;
       border: 0px;
-      float: right;
+      top: 94%;
+      left: 87%;
+    position: absolute;
      }
   }
 
@@ -121,13 +123,15 @@ $green_color:#7beec7;
     margin-left: 387px;
   }
 }
-.block-why-company-option{
-  display: flex;
-  justify-content: flex-start;
-}
-.block-why-company-groop{
+.block-why-company{
   display: flex;
   justify-content: space-between;
+}
+.block-why-company-option{
+  
+}
+.block-why-company-groop{
+  
 }
 
 
